@@ -1,0 +1,296 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+
+
+
+/*-------Navigation-------*/ 
+#nav-bar
+{
+    position:sticky;
+    top:0;
+    z-index:10;       
+}
+
+.navbar-brand img
+{  
+    width: 160px;  
+    height: 160px; 
+    padding: 0px;
+    
+}
+.navbar-nav li
+{
+    padding:0 10px;
+}
+.navbar-nav li a
+{
+    float: right; 
+    text-align:left; 
+}
+#nav-bar ul li a:hover{
+    color:#e481cc!important;
+}
+.navbar
+{
+    background:#fff;
+}
+.navbar-toggler
+{
+    border:none!important;
+}
+.nav-link
+{
+    color: #555!important;
+    font-weight: 600; 
+    font-size: 16px; 
+}
+
+#slider
+{
+width:100%
+} 
+
+.carousel-caption
+{
+    top: 50%;
+    transform: translateY (-50%);
+    bottom: initial! important; 
+}
+
+.carousel-caption h5 
+{
+    color: #fff;
+    font-size: 42px;
+}
+#about
+{
+    padding-top: 50px;
+    padding-bottom: 50px; 
+    color: #000;
+}
+
+.about-content
+{
+    padding-top:20px;
+    padding-right: 40px;
+    padding-left: 100px; 
+    padding-bottom: 50px;
+    width: 73%
+}
+
+.mr-3
+{
+width: 350px; 
+height: 350px;
+position: relative;
+right: 2%;
+border-radius: 50%;
+float: right; 
+
+} 
+
+#services
+{
+    padding-top: 20px; 
+    padding-bottom: 20px;
+    color:#000;
+    position: absolute;
+    left: 7%;
+}
+
+.service-content
+{
+    padding-top:20px; 
+    padding-bottom: 30px; 
+    width: 62%;
+    
+}
+
+.col-sm-6
+{
+    position:relative;
+    top:-430px;
+    left: 65%; 
+
+} 
+
+.skills-bar p
+{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-weight: 600; 
+    
+}
+.progress-bar
+{
+    border-radius:16px; 
+}
+
+
+#testimonials
+{
+    position: relative;
+    margin-top: 660px;
+    left: 1%;
+}
+
+.text
+{
+  text-align: center; 
+}
+
+
+#testimonials .row 
+{
+    margin-top: 30px; 
+} 
+
+.col-md-4 
+{
+    margin: 40px auto; 
+}
+
+
+.profile
+{
+    padding: 70 px 10 px 10 px; 
+    background-color: #efefef
+        
+}
+
+.profile img 
+{
+    border: 10px solid #fff; 
+    max-width: 200px; 
+    max-height: 200px; 
+    border-radius: 50%;
+}
+
+.profile h3
+{ 
+    font-size: 20px; 
+    margin-top: 15px; 
+    color: #e481cc; 
+}
+
+#testimonials span 
+{
+    font-size: 12px; 
+    color: #333; 
+}
+
+blockquote 
+{
+    font-size: 16px; 
+    line-height: 30px;  
+}
+
+blockquote::before
+{
+    content:'\93';
+    font-size: 50px; 
+    color: #e481cc; 
+    position: relative; 
+    line-height: 20px;
+    bottom: -15px; 
+    right: 5px; 
+}
+blockquote::after
+{
+    content:'\94';
+    font-size: 50px; 
+    color: #e481cc; 
+    position: relative; 
+    line-height: 10px;
+    bottom: -15px; 
+    left: 5px; 
+}
+
+.profile:hover
+{
+    box-shadow: 0 0 15px 5px rgba(0,0,0,0.2);
+    cursor: pointer; 
+    transition: 0.5s 
+}
+h1
+{
+  position:relative; 
+  top:60px;
+  text-align: center;
+  left: 2%; 
+}
+
+h1:after{
+    content: '';
+    background: black;
+    display: block;
+    height: 3px;
+    width: 200px; 
+    margin: 15px auto;
+}
+
+
+.priceplanimage img
+{
+    max-width: 1000px; 
+    max-height: 1000px;
+    position: absolute;
+    margin-top: 150px;
+    left: 14%;
+}
+
+
+.pricing-text
+{
+   font-weight: bold;
+   position: absolute; 
+   margin-top: 70px; 
+   width: 80%;
+   left: 12%; 
+}
+
+
+#contact
+{
+    position: absolute; 
+    margin-top:700px; 
+    width: 100%;
+    background: #efefef; 
+    padding-top: 40px;
+    padding-bottom: 40px; 
+    color: #777; 
+}
+
+.contact-form
+{
+    padding: 15px; 
+    
+}
+.form-control
+{
+    border-radius: 0 !important;
+    border: none !important; 
+}
+
+::placeholder 
+{
+    color: #999 !important;
+}
+
+.follow
+{
+    background: #fff
+    padding: 10px; 
+    margin: 15px; 
+    
+}
+
+.contact-info .fa 
+{
+    margin: 10px;
+    color: #e481cc; 
+    font-weight: bold; 
+}
